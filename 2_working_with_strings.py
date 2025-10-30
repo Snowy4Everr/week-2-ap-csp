@@ -44,7 +44,20 @@ print("Last character:", phrase[-1])  # Output: !
 
 # Slicing: Get a range of characters (start inclusive, end exclusive)
 print("Characters 1 to 4:", phrase[1:4])  # Output: yth
-
+#slicing
+#get "son" from "Johnson"
+print(chicago_mayor[ 4 : ])
+#first number in slicing is inclusing
+#second number is exclusive
+#get the string "John"
+print(chicago_mayor[0 : 4])
+print(chicago_mayor[0 : -3])
+print(chicago_mayor[1 : 5])
+#when we get one character/letter
+#its called string indexing
+#when we get a chunk of letters
+#from a string, its called
+#string slicing
 # Example combining everything:
 print("Formatted Example:", (greeting + " " + name + "!").upper())
 # Output: HELLO WORLD!

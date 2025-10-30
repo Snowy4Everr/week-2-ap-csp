@@ -58,6 +58,13 @@ print(chicago_mayor[1 : 5])
 #when we get a chunk of letters
 #from a string, its called
 #string slicing
+
+phrase3 = "Supercagifragilistic"
+print(phrase3.upper())
+cut = phrase3[0:5]
+print(cut)
+cut2 = phrase3[5:9]
+print(cut2)
 # Example combining everything:
 print("Formatted Example:", (greeting + " " + name + "!").upper())
 # Output: HELLO WORLD!

@@ -19,7 +19,7 @@ print(first_name.upper)
 print(len(first_name))
 
 # 3. Combine your name and favorite color into one message
-print(f"{first_name} and {favorite_color}")
+print(f"My name is{first_name}, and my favorite color is{favorite_color}.")
 #f"{name}"
 #  Step 3: Math Practice
 # Use arithmetic operators with your favorite number
@@ -33,9 +33,16 @@ print(num3 + num4)
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
 ans1 = input("How are you?")
-ans2 = input("Do you like coding?")
-
+ans2 = input("How many siblings do you have?")
+print("You had a " + ans1 + "day, and you have" + ans2 + "sibling(s)." )
 
 
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
+first_name1 = "Nick"
+age = 17
+year = 1
+fav_number = 9
+print(f"Hi! My name is {first_name1}. I am {age} years old, and my favorite number is {fav_number}.")
+new_age = age + year
+print(f"In a year, I will be {new_age} years old.")

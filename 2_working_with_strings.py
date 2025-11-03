@@ -4,8 +4,8 @@
 # ----------------------------------------
 
 # Strings are sequences of characters enclosed in quotes (' ' or " ")
-greeting = "Hello"
-name = "World"
+greeting = "Hello" #string data type
+name = "World" #string data type
 
 # ----------------------------------------
 # Basic String Operations
@@ -20,13 +20,15 @@ print("Concatenated String:", message)  # Output: Hello World
 # ----------------------------------------
 
 phrase = "Python is FUN!"
-
+name = "Nick"
+phrase2 = "SUPERCAFEFRAGISLISTCIOUS"
 # Convert all characters to lowercase
 print("Lowercase:", phrase.lower())  # Output: python is fun!
+print("Lowerscase:", name.lower())
 
 # Convert all characters to uppercase
 print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
-
+#upper case all of the previous variables
 # Check if all characters are uppercase
 print("Is Uppercase?", phrase.isupper())  # Output: False
 

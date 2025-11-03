@@ -87,7 +87,7 @@ print(blue_beetle_summary[: : -1])
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # What are you learning today?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
-print("You are learning " + input("What are you learning today: ")
+print("You are learning " + input("What are you learning today: "))
 # Input Practice #2
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # Where are you from?
@@ -103,7 +103,6 @@ print("Your surname is :" + input("What is your surname : "))
 # Exercise:
 # Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
 print("Your name is:" + input("What is your name : ") + " and your favorite color is :" + input("What is your favorite color"))
-
 
 
 
